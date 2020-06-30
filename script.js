@@ -28,7 +28,7 @@ function Show(ciudad, edad){
     dat.innerHTML = `
         Vivo en ${ciudad} y tengo ${edad} años <br/>
     ` 
-    for(var i = 0; i <= 5; i++){
+    for(var i = 0; i <= edad; i++){
         dat.innerHTML += '-'+i
     }
 }
