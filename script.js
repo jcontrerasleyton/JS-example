@@ -19,7 +19,7 @@ datos.innerHTML = `
 
 if(data.altura >= 175){
     datos.innerHTML += '<h1>Eres una persona alta</h1>'
-}else datos.innerHTML += '<h1>Eres una persona baja</h1>'
+}else datos.innerHTML += '<h1>Eres una persona bajita</h1>'
 
 
 function Show(ciudad, edad){
